@@ -1,4 +1,4 @@
-resource "azurerm_resource_gropu" "dilip"{
+resource "azurerm_resource_gropu" "main"{
   name = "drg"
   location = "eastus"
   }
