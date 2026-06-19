@@ -16,6 +16,32 @@ This repository contains my Git and GitHub practice files and commands.
 - Git Clone
 - Git Workflow
 
+# Local to Remote Flow
+
+
+- (git init)- Current folder ko Git repository banata hai. Isse hidden .git folder create hota hai jisme Git history store hoti hai.
+
+
+- (git status) - Batata hai ki folder me kya changes hain, kaunsi files tracked/untracked hain, kaunsi branch par ho.
+
+
+- (git remote add origin (repo link)-Local Git repo ko GitHub remote repository ke saath connect karta hai.
+
+- (git remote -v )-Check karta hai ki remote URL sahi add hua hai ya nahi.
+
+- (git add .) -Files ko staging area me bhejta hai. Matlab Git ko bolta hai ki in files ka snapshot lena hai.
+
+- (git status)-Add karne ke baad verify karta hai ki files staging me aa gayi hain ya nahi.
+
+- (git commit -m "Add terraform code")-Staging wali files ka snapshot local repository me save karta hai.
+
+- (git branch -M main) -Current branch ka naam main kar deta hai.
+
+- (git pull origin main --allow-unrelated-histories)-GitHub (remote) se latest code lekar local ke saath merge karta hai. Ye tab use hota hai jab local aur remote ki history alag ho.
+
+- (git push -u origin main)-Local main branch ka code GitHub ke main branch par upload karta hai. -u future me tracking set karta hai.
+
+
 ## 🔄 Git Basic Workflow
 
 Working Directory
