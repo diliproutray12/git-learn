@@ -4,3 +4,6 @@ resource "azurerm_resource_group" "rgg" {
   location = each.value.location
 
 }
+
+
+
