@@ -12,7 +12,7 @@ resourcegroup = {
 virtualnetwork = {
   vnet = {
     name          = "susu-vnet"
-    location      = "koriacentral"
+    location      = "eastus"
     rgname        = "niki-rg"
     address_space = ["10.0.0.0/16"]
   }
