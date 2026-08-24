@@ -3,7 +3,7 @@ resourcegroup = {
     name     = "niki-rg"
     location = "koriacentral"
   }
-   rg2 = {
+  rg2 = {
     name     = "niki-rg1"
     location = "koriacentral"
   }
