@@ -7,6 +7,7 @@ resourcegroup = {
     name     = "niki-rg1"
     location = "koriacentral"
   }
+
 }
 virtualnetwork = {
   vnet = {
