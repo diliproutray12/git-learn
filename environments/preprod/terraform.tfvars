@@ -1,11 +1,11 @@
 resourcegroup = {
   rg1 = {
     name     = "niki-rg"
-    location = "koriacentral"
+    location = "eastus"
   }
   rg2 = {
     name     = "niki-rg1"
-    location = "koriacentral"
+    location = "eastus"
   }
 
 }
