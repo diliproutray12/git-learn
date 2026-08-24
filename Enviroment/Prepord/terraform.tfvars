@@ -3,6 +3,10 @@ resourcegroup = {
     name     = "niki-rg"
     location = "koriacentral"
   }
+   rg2 = {
+    name     = "niki-rg1"
+    location = "koriacentral"
+  }
 }
 virtualnetwork = {
   vnet = {
